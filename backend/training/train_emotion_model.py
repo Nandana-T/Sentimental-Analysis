@@ -6,11 +6,13 @@ import os
 import yaml
 
 # Load Configurations
-CONFIG_PATH = "training/config.yaml"
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.yaml")
 with open(CONFIG_PATH, "r") as f:
     config = yaml.safe_load(f)
 
-DATASET_PATH = config["dataset_path"]
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # Get `backend/` path
+DATASET_PATH = os.path.join(BASE_DIR, "data", "processed_feedback.csv")
+
 MODEL_SAVE_PATH = config["emotion_model_path"]
 
 # Define Dataset Class
