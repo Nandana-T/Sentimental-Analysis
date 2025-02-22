@@ -1,0 +1,6 @@
+text,label,topics
+"i love the fast delivery",2,["Delivery"]
+"the product quality is bad",0,["Quality"]
+"customer support was okay not great",1,["Customer Service"]
+"the price is too high for this quality",0,["Price","Quality"]
+"very satisfied with the product",2,["Quality"]

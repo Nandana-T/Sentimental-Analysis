@@ -1,0 +1,27 @@
+[
+    {
+        "text": "i love the fast delivery",
+        "label": 2,
+        "topics": ["Delivery"]
+    },
+    {
+        "text": "the product quality is bad",
+        "label": 0,
+        "topics": ["Quality"]
+    },
+    {
+        "text": "customer support was okay not great",
+        "label": 1,
+        "topics": ["Customer Service"]
+    },
+    {
+        "text": "the price is too high for this quality",
+        "label": 0,
+        "topics": ["Price", "Quality"]
+    },
+    {
+        "text": "very satisfied with the product",
+        "label": 2,
+        "topics": ["Quality"]
+    }
+]

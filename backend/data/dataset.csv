@@ -1,0 +1,9 @@
+text,emotion,topics
+"I love the fast delivery!",Positive,Delivery
+"The product quality is bad.",Negative,Quality
+"Customer support was okay, not great.",Neutral,Customer Service
+"The price is too high for this quality.",Negative,Price,Quality
+"Very satisfied with the product!",Positive,Quality
+"The delivery was late, I am unhappy.",Negative,Delivery
+"The product is okay, but nothing special.",Neutral,Quality
+"Fantastic service and great prices!",Positive,Customer Service,Price

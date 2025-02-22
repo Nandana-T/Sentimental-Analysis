@@ -1,0 +1,11 @@
+# Training Configurations
+dataset_path: "data/processed_feedback.csv"
+emotion_model_path: "backend/models/emotion_model.pth"
+topic_model_output: "backend/models/topic_model.json"
+
+batch_size: 8
+epochs: 3
+max_length: 128
+learning_rate: 2e-5
+logging_dir: "logs"
+output_dir: "results"
